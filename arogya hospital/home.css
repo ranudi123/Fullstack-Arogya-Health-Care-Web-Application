@@ -1,0 +1,116 @@
+/* Reset default styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image:url(pic/home.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: azure;
+    
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo img {
+    max-width: 100px; /* Adjust the size as needed */
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .navbar .nav-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar .nav-links a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Dashboard styling */
+  .dashboard {
+    padding: 20px;
+  }
+  
+  .dashboard section {
+    margin-bottom: 30px;
+  }
+  
+  .dashboard h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .summary-items {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .item {
+    text-align: center;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+  }
+  
+  .schedule-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .schedule-item,
+  .task-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar .nav-links {
+      margin-top: 10px;
+    }
+  
+    .navbar .nav-links li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .summary-items,
+    .schedule-items {
+      justify-content: center;
+    }
+  
+    .schedule-item,
+    .task-item {
+      margin-right: 0;
+    }
+  }
+  

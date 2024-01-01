@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Reset default styles */
+body {
+   height: 100vh;
+   background-image: url(pic/medi2.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   justify-content: center;
+   align-items: center;
+   
+  }
+
+  
+  /* Header styling */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+   
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .navbar .logo img {
+    max-width: 100px; /* Adjust the size as needed */
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .navbar .nav-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar .nav-links a:hover {
+    color: #ffcc00;
+  }
+  
+  .hstyle{
+    color:white;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 40px;
+  }
+
+  .insbtn{
+    font-size: 18px;
+    background-color: green;
+    color: #fff;
+    border-radius: 5px;
+    border-color: green;
+    height: 5%;
+    width: 8%;
+    margin-left: 30%;
+    margin-bottom:3%;
+  }
+
+  .upbtn{
+    font-size: 18px;
+    background-color: green;
+    color: #fff;
+    border-radius: 5px;
+    border-color: green;
+    height: 5%;
+    width: 8%;
+    margin-left: 5%;
+    margin-bottom:3%;
+  }
+
+  .debtn{
+    font-size: 18px;
+    background-color: green;
+    color: #fff;
+    border-radius: 5px;
+    border-color: green;
+    height: 5%;
+    width: 8%;
+    margin-left: 5%;
+    margin-bottom:3%;
+  }
+
